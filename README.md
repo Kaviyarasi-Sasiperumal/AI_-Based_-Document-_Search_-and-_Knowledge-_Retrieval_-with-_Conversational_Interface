@@ -1,77 +1,150 @@
-# AI_Based_Document_Search_and_Knowledge_Retrieval_with_Conversational_Interface
-<h1 align="center">Hi 👋, I'm Kaviyarasi S</h1>
-<h3 align="center">🚀 Aspiring AI Engineer | Building RAG-based Intelligent Systems</h3>
+# 📄 AI-Based Document Search and Knowledge Retrieval with Conversational Interface
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kaviyarasi-sasiperumal&label=Profile%20views&color=0e75b6&style=flat" alt="kaviyarasi-sasiperumal" />
-</p>
+AI-Based Document Search is an interactive **RAG-powered intelligent system** that transforms static documents into a conversational knowledge base.  
+It allows users to upload documents, perform semantic search, and receive context-aware answers through a chatbot interface.
 
 ---
 
-## 🏆 GitHub Trophies
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kaviyarasi-sasiperumal&theme=algolia&no-frame=true&no-bg=true&margin-w=4" />
-</p>
+## 🚀 Features
+
+- 📂 Multi-Document Upload  
+- 🔍 Semantic Search using Vector Embeddings  
+- 💬 Conversational Question Answering  
+- ⚡ Fast Chunk-Based Retrieval  
+- 🧠 Context-Aware LLM Responses  
+- 🌐 Interactive Gradio Dashboard  
 
 ---
 
-- 🔭 I’m currently working on  
-  **AI-Based Document Search and Knowledge Retrieval with Conversational Interface**
+## 🎯 Why Use This System?
 
-- 🌱 I’m currently learning  
-  **Advanced RAG architectures, Vector Databases, and LLM-powered conversational systems**
-
-- 👯 I’m looking to collaborate on  
-  **AI-Based Document Search and Knowledge Retrieval with Conversational Interface**
-
-- 🤝 I’m looking for help with  
-  **AI-Based Document Search and Knowledge Retrieval with Conversational Interface**
-
-- 👨‍💻 All of my projects are available at  
-  🌐 https://github.com/Kaviyarasi-Sasiperumal
-
-- 💬 Ask me about  
-  **Python, RAG-based Document Search, and Conversational AI**
-
-- 📫 How to reach me  
-  ✉️ **kavi49530@gmail.com**
+In environments where large volumes of documents must be searched quickly, this system provides **accurate, AI-driven knowledge retrieval**.  
+It helps students, researchers, and professionals extract insights instantly without manually scanning documents.
 
 ---
 
-## 🤝 Connect with me
-<!-- Add LinkedIn later if available -->
+## 🛠 Tech Stack
+
+| Component | Tools / Libraries |
+|----------|-------------------|
+| Web Interface | Gradio |
+| Programming | Python |
+| Document Processing | PyPDF2 |
+| RAG Pipeline | LangChain |
+| Vector Search | FAISS |
+| Embeddings / LLM | Hugging Face Transformers |
+| Data Handling | NumPy, Pandas |
 
 ---
 
-## 🧿 Tech Stack
-<p align="center">
+## 📈 How It Works
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
-<img src="https://img.shields.io/badge/RAG-FF6F00?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/NLP-4B8BBE?style=for-the-badge"/>
-
-</p>
-
----
-
-## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kaviyarasi-sasiperumal&show_icons=true&locale=en&theme=tokyonight" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=kaviyarasi-sasiperumal&show_icons=true&locale=en&layout=compact&theme=tokyonight" height="160"/>
-</p>
+1. **Upload Documents** – User provides PDF/text files  
+2. **Document Ingestion** – Text is extracted  
+3. **Chunking** – Documents split into smaller parts  
+4. **Embedding Generation** – Converts text to vectors  
+5. **Vector Search** – Finds most relevant chunks  
+6. **LLM Response** – Generates context-aware answer  
+7. **Chatbot Output** – Displays response to user  
 
 ---
 
-## 🔥 Contribution Graph
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaviyarasi-sasiperumal&theme=tokyo-night"/>
-</p>
+## 🧱 Project Architecture
+
+- User Query  
+- Document Ingestion  
+- Text Chunking  
+- Embedding Generation  
+- Vector Database Search  
+- LLM Response Generation  
+- Chatbot Output  
 
 ---
 
-## 🐍 Contribution Snake
-<p align="center">
-  <img src="https://raw.githubusercontent.com/kaviyarasi-sasiperumal/kaviyarasi-sasiperumal/output/github-contribution-grid-snake.svg" />
-</p>
+## 💻 Installation
+
+```bash
+git clone https://github.com/Kaviyarasi-Sasiperumal/AI_-Based_-Document-_Search_-and-_Knowledge-_Retrieval_-with-_Conversational_Interface.git
+cd AI_-Based_-Document-_Search_-and-_Knowledge-_Retrieval_-with-_Conversational_Interface
+pip install -r requirements.txt
+
+---
+
+## ▶️ Usage
+
+python app.py
+
+Then:
+
+- Upload documents
+
+- Ask questions in chat
+
+- Get AI-powered answers
+
+---
+
+## 📂 Project Structure
+
+AI_-Based_-Document-_Search_-and-_Knowledge_Retrieval_-with_Conversational_Interface/
+│
+├── Milestone1_Document_Ingestion.ipynb
+├── Milestone2_Text_Chunking.ipynb
+├── Milestone3_Vector_Search.ipynb
+├── Milestone4_Conversational_Interface.ipynb
+├── requirements.txt
+└── README.md
+
+---
+
+## 📊 Results
+
+- ✅ Accurate semantic retrieval
+
+- ✅ Context-aware answers
+
+- ✅ Scalable RAG pipeline
+
+- ✅ Improved search efficiency
+
+---
+
+## 🔮 Future Enhancements
+
+- 🔐 User authentication
+
+- ☁️ Cloud deployment
+
+- 📚 Support more document formats
+
+- 🧠 Advanced reranking models
+
+- 🗄️ Production vector database
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork the repository and submit a pull request.
+
+---
+
+## 📧 Contact
+
+Kaviyarasi S
+📩 kavi49530@gmail.com
+
+🔗 GitHub: https://github.com/Kaviyarasi-Sasiperumal
+
+---
+
+✨ AI Document Search — Turning Documents into Intelligent Conversations ✨
+
+
+
+
+
+
+
+
