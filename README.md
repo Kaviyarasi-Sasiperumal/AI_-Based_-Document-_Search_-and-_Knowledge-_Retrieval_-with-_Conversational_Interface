@@ -67,6 +67,7 @@ It helps students, researchers, and professionals extract insights instantly wit
 git clone https://github.com/Kaviyarasi-Sasiperumal/AI_-Based_-Document-_Search_-and-_Knowledge-_Retrieval_-with-_Conversational_Interface.git
 cd AI_-Based_-Document-_Search_-and-_Knowledge-_Retrieval_-with-_Conversational_Interface
 pip install -r requirements.txt
+```
 
 ---
 
@@ -86,7 +87,8 @@ Then:
 
 ## 📂 Project Structure
 
-AI_-Based_-Document-_Search_-and-_Knowledge_Retrieval_-with_Conversational_Interface/
+```text
+AI_-Based_-Document-Search-and-Knowledge_Retrieval-with_Conversational_Interface/
 │
 ├── Milestone1_Document_Ingestion.ipynb
 ├── Milestone2_Text_Chunking.ipynb
@@ -94,7 +96,7 @@ AI_-Based_-Document-_Search_-and-_Knowledge_Retrieval_-with_Conversational_Inter
 ├── Milestone4_Conversational_Interface.ipynb
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## 📊 Results
